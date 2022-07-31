@@ -16,7 +16,7 @@ list(set = set, get = get,                 ## specifies names to function to cal
      getsolve = getsolve)
 }
 
-#created, set, noticed
+
 ## The function cacheSolve computes the inverse of the created matrix by the above function. 
 ## It retrieves the inverse value from cache, if already calculated.  
 
@@ -46,5 +46,4 @@ cacheSolve(my_matrix1)
 my_matrix1$getsolve()
 
 
-dir()
-getwd()
+
